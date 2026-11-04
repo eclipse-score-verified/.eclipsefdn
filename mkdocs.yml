@@ -1,11 +1,11 @@
-site_name: Otterdog configuration @ {{ org }}
-site_description: Otterdog configuration @ {{ org }}
+site_name: Otterdog configuration @ eclipse-score-verified
+site_description: Otterdog configuration @ eclipse-score-verified
 strict: false
 
-site_url: https://{{ org }}.github.io/.eclipsefdn/
+site_url: https://eclipse-score-verified.github.io/.eclipsefdn/
 
-repo_name: {{ org }}/.eclipsefdn
-repo_url: https://github.com/{{ org }}/.eclipsefdn/
+repo_name: eclipse-score-verified/.eclipsefdn
+repo_url: https://github.com/eclipse-score-verified/.eclipsefdn/
 
 docs_dir: ./docs
 site_dir: ./_site
@@ -34,7 +34,7 @@ nav:
 watch: []
 
 extra:
-  org_id: {{ org }}
+  org_id: eclipse-score-verified
 
 extra_css:
   - stylesheets/extra.css

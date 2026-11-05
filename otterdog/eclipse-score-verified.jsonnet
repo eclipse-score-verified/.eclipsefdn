@@ -33,7 +33,7 @@ orgs.newOrg('automotive.score-verified', 'eclipse-score-verified') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      description: "Score-Verified technology compatibily kit ",
+      description: "Eclipse S-CORE Verified technology compatibily kit(TCK) ",
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,

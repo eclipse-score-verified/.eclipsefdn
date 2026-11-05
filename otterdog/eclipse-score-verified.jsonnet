@@ -29,6 +29,19 @@ orgs.newOrg('automotive.score-verified', 'eclipse-score-verified') {
         default_workflow_permissions: "write",
       },
     },
+  orgs.newRepo('TCK') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Eclipse S-CORE Verified - Technology Compatibily Kit (TCK) ",
+      secret_scanning: "disabled",
+      secret_scanning_push_protection: "disabled",
+      web_commit_signoff_required: false,
+      has_discussions: true,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
   ],
 } + {
   # snippet added due to 'https://github.com/eclipsefdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
